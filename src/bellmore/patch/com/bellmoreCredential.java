@@ -41,7 +41,7 @@ public class bellmoreCredential
 	
 		driver.findElement(By.xpath("//ul[@id='nav_messages']//strong[text()='Sign In']")).click();
 		driver.findElement(By.xpath("//input[@name='email']")).sendKeys("sample20022002@gmail.com");
-		//driver.findElement(By.xpath("//input[@class='signup-input' and @name='email']")).sendKeys("megahellfire2002@gmail.com");
+		//driver.findElement(By.xpath("//input[@class='signup-input' and @name='email']")).sendKeys("sample20022002@gmail.com");
 		driver.findElement(By.name("password")).sendKeys("sample1234");
 		driver.findElement(By.id("signin")).click();
 		//input[@class='signup-input' and @name='confirm_password']
